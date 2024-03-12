@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">120dp</item> <!-- Ajusta el radio según sea necesario -->
+    </style>
+
+</resources>

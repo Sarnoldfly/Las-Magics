@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LasMagics</string>
+    <string name="Nombre">MASKED RIDER</string>
+    <string name="Style">Fight</string>
+    <string name="Class">Alien</string>
+    <string name="Weapons">Saber</string>
+
+    <string name="Weapon">Weapons</string>
+    <string name="Kill">Kills</string>
+    <string name="Poder">Power</string>
+
+    <string name="Kills">609</string>
+    <string name="Power">1700/4000</string>
+
+    <string name="info">The Prince Dex     Planet: Edenoi</string>
+
+    <string name="history">Prince Dex from the planet Edenoi travels to Earth to prevent his uncle from destroying it. Dex is adopted by a family from the town of Leewood. Once on the ground he creates a cave, with two vehicles with different personalities. To activate his powers, he yelled "Ecto-phase Activate! Masked Rider!" (Activate Ecto Phase! Masked Rider!)</string>
+
+
+
+
+
+</resources>
