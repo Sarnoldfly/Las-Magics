@@ -11,7 +11,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="181dp" />
+        app:layout_constraintGuide_end="501dp" />
+
+
+    <ImageView
+        android:id="@+id/degradado2"
+        android:layout_width="411dp"
+        android:layout_height="501dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/degradado2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/degradado" />
+
+    <ImageView
+        android:id="@+id/borde"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="229dp"
+        app:layout_constraintEnd_toEndOf="@+id/Nombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/degradado"
+        app:layout_constraintTop_toBottomOf="@+id/degradado2"
+        app:srcCompat="@drawable/bordes2" />
 
     <ImageView
         android:id="@+id/degradado"
@@ -21,6 +46,7 @@
         android:src="@drawable/degradado"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,7 +87,9 @@
         app:layout_constraintStart_toStartOf="@+id/Nombre"
         app:layout_constraintTop_toBottomOf="@+id/Nombre"
         app:shapeAppearanceOverlay="@style/roundedCorners"
-        app:srcCompat="@drawable/masketryder" />
+        app:srcCompat="@drawable/maskeddefinitivo" />
+
+
 
     <TextView
         android:id="@+id/textView2"
@@ -152,8 +180,8 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="383dp"
-        android:layout_height="112dp"
+        android:layout_width="338dp"
+        android:layout_height="150dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="5dp"

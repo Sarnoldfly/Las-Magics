@@ -1,11 +1,11 @@
 <!-- degradado.xml -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
-        android:type="radial"
-        android:gradientRadius="65%"
-        android:centerX="50%"
+        android:type="sweep"
+        android:gradientRadius="0%"
+        android:centerX="0%"
         android:centerY="50%"
-        android:startColor="@color/red"
+        android:startColor="@color/grisOscuro"
         android:centerColor="@color/black"
         android:endColor="@color/grisOscuro"/>
 </shape>
